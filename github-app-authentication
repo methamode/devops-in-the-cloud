@@ -1,2 +1,5 @@
 # Converting the private key for Jenkins
-openssl pkcs8 -topk8 -inform PEM -outform PEM -in elmer-terransible.2022-03-21.private-key.pem -out converted-github-app.pem -nocrypt 
+1. After generating private key in Github App. Proceed to your linux machine, upload the generated private key file in your user's home directory and execute the command below.
+2. openssl pkcs8 -topk8 -inform PEM -outform PEM -in elmer-terransible.2022-03-21.private-key.pem -out converted-github-app.pem -nocrypt
+
+Note: Private key file should be like this --> elmer-terransible.2022-03-21.private-key.pem
