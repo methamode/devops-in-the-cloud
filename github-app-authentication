@@ -1,0 +1,2 @@
+# Converting the private key for Jenkins
+openssl pkcs8 -topk8 -inform PEM -outform PEM -in elmer-terransible.2022-03-21.private-key.pem -out converted-github-app.pem -nocrypt 
